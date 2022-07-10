@@ -10,8 +10,7 @@ export class EventDetailsComponent implements OnInit{
   event: any = {};
   constructor(
     private activatedRoute: ActivatedRoute,
-    private eventService: EventService,
-    private router: Router){}
+    private eventService: EventService){}
  
   ngOnInit() {
     this.activatedRoute.params
